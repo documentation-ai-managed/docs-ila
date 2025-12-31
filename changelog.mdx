@@ -1,0 +1,96 @@
+---
+title: ILA Changelog
+description: Stay updated with the latest releases, new features, and improvements in ILA's documentation platform.
+---
+
+## Recent Releases
+
+Stay current with ILA's evolution. You receive notifications for major updates directly in your dashboard. Review the highlights below to see how new features enhance your documentation workflows.
+
+<Callout kind="info">
+  Enable email notifications in your account settings to get instant alerts for new releases.
+</Callout>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "bugfix"]}>
+## New Features
+
+- Added real-time collaboration editing for shared documentation spaces
+- Introduced version history with diff viewer for tracking changes
+- Integrated search-as-you-type across all project docs
+
+## Bug Fixes
+
+- Fixed rendering issues with nested code blocks in MDX files
+- Resolved authentication token refresh errors during long sessions
+- Corrected export failures for large documentation sites
+
+## Improvements
+
+- Enhanced performance of page rendering by `>30%`
+- Updated UI components for better mobile responsiveness
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "improvement"]}>
+## New Features
+
+- Launched custom themes with brand color support (default: `#3B82F6`)
+- Added API endpoints for programmatic doc management at `https://api.example.com/v1/docs`
+- Enabled webhook integrations for CI/CD pipelines
+
+## Improvements
+
+- Optimized sidebar navigation for faster project switching
+- Improved accessibility with better keyboard navigation and screen reader support
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["feature", "breaking"]}>
+## New Features
+
+- Core documentation platform with MDX support and component library
+- User authentication via `https://auth.example.com`
+- Dashboard overview at `https://dashboard.example.com`
+
+## Breaking Changes
+
+- Migrated to new API version; update your integrations to `/v1`
+- Removed legacy YAML frontmatter validation
+
+</Update>
+
+## Upcoming Changes
+
+<Expandable title="Preview v1.3.0 Features" default-open="false">
+You can expect AI-powered content suggestions and advanced analytics in the next release. Test beta features by opting in via your settings.
+
+- Auto-generate table of contents from headings
+- Analytics dashboard showing doc views and engagement
+- Multi-language support for international teams
+</Expandable>
+
+## Stay Involved
+
+<Columns cols={2}>
+  <Card title="Submit Feedback" icon="message-circle" href="https://github.com/ila/docs/issues/new">
+    Share your ideas for future enhancements.
+  </Card>
+  <Card title="Report a Bug" icon="bug" href="https://github.com/ila/docs/issues/new?template=bug">
+    Help us improve by reporting issues.
+  </Card>
+</Columns>
+
+<Steps>
+  <Step title="Check for Updates" icon="refresh-cw">
+    Visit your dashboard at `https://dashboard.example.com` and review the release notes.
+  </Step>
+  <Step title="Upgrade" icon="upload">
+    ILA updates automatically; restart your session if prompted.
+  </Step>
+  <Step title="Explore New Features" icon="zap">
+    Use the updated components like `<Update>` in your MDX docs.
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+  Follow [@ila_docs](https://github.com/ila/docs) on GitHub for daily updates.
+</Callout>

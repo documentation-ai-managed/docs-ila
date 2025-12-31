@@ -1,0 +1,124 @@
+---
+title: Getting Started with ILA
+description: Quickly set up your ILA account and create your first documentation space to begin organizing your projects.
+---
+
+## Prerequisites
+
+<Callout kind="info">
+
+Before you begin, ensure you have:
+- A modern web browser like Chrome, Firefox, or Safari
+- An email address for account verification
+- Optional: A GitHub account for advanced integrations
+
+</Callout>
+
+## Create Your ILA Account
+
+Follow these steps to sign up and verify your account.
+
+<Steps>
+  <Step title="Visit the Dashboard" icon="monitor">
+    Navigate to `https://dashboard.example.com` and click **Sign Up**.
+  </Step>
+  <Step title="Enter Your Details" icon="user">
+    Provide your email, full name, and a strong password. Accept the terms of service.
+  </Step>
+  <Step title="Verify Email" icon="mail">
+    Check your inbox for a verification email from ILA. Click the link to activate your account.
+  </Step>
+  <Step title="Log In" icon="log-in">
+    Return to the dashboard and sign in with your credentials. You'll land on the spaces overview.
+  </Step>
+</Steps>
+
+## Set Up Your First Space
+
+Spaces organize your project documentation. Create one now.
+
+<Steps>
+  <Step title="Create New Space" icon="plus">
+    Click **New Space** in the top-right corner.
+  </Step>
+  <Step title="Name Your Space" icon="edit-3">
+    Enter a name like `My Project Docs` and select a visibility (public or private).
+  </Step>
+  <Step title="Customize Settings" icon="settings">
+    Add a description, set permissions, and choose a brand color like `#3B82F6`.
+  </Step>
+  <Step title="Save and Enter" icon="arrow-right">
+    Save the space. You'll see the empty editor interface ready for content.
+  </Step>
+</Steps>
+
+## Add Initial Documents
+
+Populate your space with your first pages using these methods.
+
+<Tabs>
+  <Tab title="Markdown Editor" icon="edit">
+    Click **New Page** and write directly.
+
+    ````markdown
+    # Welcome to My Project
+
+    This is your first document.
+
+    ## Features
+
+    - Real-time collaboration
+    - MDX support
+    ````
+
+  </Tab>
+  <Tab title="Import from GitHub" icon="github">
+    Connect your repo.
+
+    1. Go to **Integrations** > **GitHub**.
+    2. Authorize ILA.
+    3. Select repo and branch to sync docs automatically.
+  </Tab>
+  <Tab title="Upload Files" icon="upload">
+    Drag and drop `.mdx` or `.md` files into the space root.
+  </Tab>
+</Tabs>
+
+<Callout kind="tip">
+  Start with 3-5 pages: `introduction.mdx`, `quickstart.mdx`, `api.mdx`.
+</Callout>
+
+## Basic Interface Tour
+
+Explore the key areas of the ILA dashboard.
+
+<Columns cols={3}>
+  <Card title="Navigation Sidebar" icon="menu" horizontal>
+    Access spaces, search docs, and manage settings.
+  </Card>
+  <Card title="Editor Panel" icon="edit-3" horizontal>
+    Write MDX with live preview, syntax highlighting, and version history.
+  </Card>
+  <Card title="Preview Pane" icon="eye" horizontal>
+    Real-time rendering of your documentation with components.
+  </Card>
+</Columns>
+
+## Next Steps
+
+<Columns cols={2}>
+  <Card title="Learn MDX Components" icon="code" href="/introduction">
+    Dive into advanced formatting and interactive elements.
+  </Card>
+  <Card title="Set Up Authentication" icon="shield" href="/authentication">
+    Secure your spaces with API keys and webhooks.
+  </Card>
+</Columns>
+
+<Expandable title="Troubleshooting Common Issues" default-open="false">
+  - **Email not received?** Check spam folder or resend verification.
+  - **Space not visible?** Ensure permissions match your role.
+  - **Editor slow?** Clear browser cache and reload.
+</Expandable>
+
+Congratulations! You've set up ILA and created your first documentation space. Organize more projects by repeating these steps.
